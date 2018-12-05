@@ -69,6 +69,7 @@ def run_test_draw_parallel_lines():
 
 
 def draw_parallel_lines(n, point, length, window):
+
     """
     What comes in: The four arguments are:
       -- A positive integer n.
