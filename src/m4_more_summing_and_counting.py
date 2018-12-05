@@ -379,8 +379,8 @@ def sum_unit_fractions_from(m, n):
     #   of the RANGE expression, if you happen to know them.
     # -------------------------------------------------------------------------
     total = 0
-    for k in range(m, n+1):
-        total = total + (1/(k))
+    for k in range(n + 1 - m):
+        total = total + (1/(k + m))
     return total
 
 # -----------------------------------------------------------------------------
