@@ -193,6 +193,7 @@ def draw_circles_from_rectangle(m, n, rectangle, window1):
 
 
 
+
     """
     What comes in:  Four arguments:
       -- Positive integers m and n.
